@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DadaWithPlayAR.unity
+    guid: 5b0f684422fef8440897dca0dc04c344
+  - enabled: 1
+    path: Assets/Scenes/ARnew.unity
+    guid: 2c3b6b6a9fc64434bbbfce43758d81ef
+  m_configObjects:
+    AR Foundation RemoteARFoundationRemoteLoaderSettings: {fileID: 11400000, guid: f05069119f39f0742b1cff42f3b69dad,
+      type: 2}
+    AR Foundation RemoteARFoundationRemoteSessionRecordsData: {fileID: 11400000, guid: e66fd70eb5f7e28429dbcf3ffc120031,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 68ae94eddada0404385cf935d93d59f8,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b0f12dbdbd037274c8a4341e5e21daf4,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 1b64bbadb5981f043aa73f4af78d0ed2, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 54b801e5ac635834d9ee7e107a95b041,
+      type: 3}
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: c2f7b8d7c0bff4d10874cbcf3f24af78,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d788fd800f9d98f409bead264130b4c3,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: b27ec7d82a91a48e69fd689ad6808e5e,
+      type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 57bc6c0147b3cc240b85074b5650a444,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 80672e2a421c0ea4c9f04c14f96cd8fc,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: eae34022a9be8af49996a7018d3b5192,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
