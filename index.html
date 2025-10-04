@@ -1,164 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DadaAndroid | Create Dadaist Poems</title>
-  <style>
-    body {
-      background-color: #0d1117;
-      color: #f5f5f5;
-      font-family: 'Segoe UI', Roboto, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      padding: 3rem 1rem 2rem;
-      background: linear-gradient(180deg, #141a22, #0d1117);
-      border-bottom: 1px solid #222;
-    }
-    h1 {
-      font-size: 2.4rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      margin-top: 2rem;
-      color: #58a6ff;
-    }
-    p, li {
-      max-width: 800px;
-      margin: 0.5rem auto;
-      font-size: 1rem;
-      opacity: 0.9;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    iframe {
-      display: block;
-      margin: 2rem auto;
-      border-radius: 12px;
-      box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
-      width: 90%;
-      max-width: 960px;
-      height: 540px;
-    }
-    section {
-      text-align: center;
-      padding: 1rem;
-    }
-    img.screenshot {
-      border-radius: 12px;
-      margin: 0.5rem;
-      box-shadow: 0 0 12px rgba(0,0,0,0.5);
-    }
-    a.button {
-      display: inline-block;
-      margin: 1rem 0.5rem;
-      padding: 0.8rem 1.6rem;
-      border-radius: 8px;
-      font-weight: 600;
-      text-decoration: none;
-      color: white;
-      transition: background 0.2s ease;
-    }
-    a.download {
-      background-color: #238636;
-    }
-    a.download:hover {
-      background-color: #2ea043;
-    }
-    a.github {
-      background-color: #58a6ff;
-    }
-    a.github:hover {
-      background-color: #1f6feb;
-    }
-    footer {
-      margin-top: 3rem;
-      text-align: center;
-      font-size: 0.9rem;
-      opacity: 0.6;
-      padding-bottom: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>🌀 DadaAndroid</h1>
-    <p>Create Dadaist poems with the Tristan Tzara method</p>
-  </header>
+<style>
+  :root{
+    --bg:#0d1117; --fg:#f5f5f5; --muted:#8b949e; --accent:#58a6ff; --line:#222;
+    --maxw:1100px;            /* wider reading width */
+    --base:18px;              /* bigger base font */
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
+  body{font-size:var(--base); line-height:1.8;}
 
-  <section>
-    <h2>✂️ To make a Dadaist poem</h2>
-    <ol style="max-width:700px; margin:auto; text-align:left;">
-      <li>Take a newspaper.</li>
-      <li>Take a pair of scissors.</li>
-      <li>Choose an article as long as you are planning to make your poem.</li>
-      <li>Cut out the article.</li>
-      <li>Then cut out each of the words that make up this article and put them in a bag.</li>
-      <li>Shake it gently.</li>
-      <li>Take out the scraps one after the other in the order in which they left the bag.</li>
-      <li>Copy conscientiously.</li>
-    </ol>
-    <p><em>- Tristan Tzara</em></p>
-  </section>
+  header{
+    text-align:center; padding:3rem 1rem 2rem;
+    background:linear-gradient(180deg,#141a22,var(--bg));
+    border-bottom:1px solid var(--line);
+  }
+  h1{font-size:2.8rem; margin:.25rem 0 .75rem}
+  h2{font-size:1.6rem; color:var(--accent); margin:2.25rem 0 1rem}
 
-  <section>
-    <h2>🎭 Concept</h2>
-    <p>The app re-imagines the <em>“How to Make a Dadaist Poem”</em> method for the digital age. Using motion input and live news data, each poem emerges spontaneously — no two results are ever the same.</p>
-  </section>
+  .container{max-width:var(--maxw); margin:0 auto; padding:0 24px;}
+  p,li{color:var(--fg); opacity:.92}
+  ol{padding-left:1.25rem}
 
-  <section>
-    <h2>📱 Screenshots</h2>
-    <p align="center">
-      <img class="screenshot" width="270" src="https://github.com/user-attachments/assets/cc08e637-f8e1-4a30-817d-6d6c1083cdf0" alt="App1">
-      <img class="screenshot" width="270" src="https://github.com/user-attachments/assets/a6f69bae-0127-4db4-bddf-b156b629d115" alt="App2">
-      <img class="screenshot" width="270" src="https://github.com/user-attachments/assets/e9fadd73-eb75-4125-a6b6-4664dff544dc" alt="App3"><br>
-      <img class="screenshot" width="270" src="https://github.com/user-attachments/assets/2a485725-6628-40b5-8244-b068f08aae08" alt="App4">
-      <img class="screenshot" width="270" src="https://github.com/user-attachments/assets/bd53468a-c68d-4e9b-8311-ab45232b6067" alt="App5">
-      <img class="screenshot" width="270" src="https://github.com/user-attachments/assets/a24d1e8e-2989-4d5d-a8bd-5329334c25e2" alt="App6">
-    </p>
-  </section>
+  section{padding:1rem 0;}
+  .lead{font-size:1.1rem; color:var(--muted)}
 
-  <section>
-    <h2>⚙️ Features</h2>
-    <ul>
-      <li>🗞️ <strong>Real-time News API integration</strong> — fetches live headlines, categories, and full text as poem source material.</li>
-      <li>📍 <strong>Location & motion-based control</strong> — generates unique compositions using GPS, accelerometer, and gyroscope input.</li>
-      <li>🕶️ <strong>XR Camera (Unity XR Rig / OpenXR)</strong> — mixes real-world visuals with generative overlays for immersive creation.</li>
-    </ul>
-  </section>
+  /* Video / images */
+  iframe{display:block; margin:1.5rem auto; border-radius:12px; box-shadow:0 0 25px rgba(0,0,0,.55); width:100%; max-width:960px; height:54vw; max-height:540px}
+  img.screenshot{width:100%; height:auto; border-radius:12px; box-shadow:0 0 14px rgba(0,0,0,.5)}
 
-  <section>
-    <h2>🎬 Demo Video</h2>
-    <a href="https://vimeo.com/1053590293" target="_blank">
-      <img src="https://github.com/user-attachments/assets/43c836f9-2920-4d65-b157-54538f6b0aee" alt="Watch Demo" style="border-radius:12px; width:90%; max-width:640px; box-shadow:0 0 20px rgba(0,0,0,0.5);">
-    </a>
-    <p>🎥 Click the image to watch the HD demo on Vimeo.</p>
-  </section>
+  /* Responsive screenshots grid */
+  .shots{
+    display:grid; gap:18px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    align-items:start;
+  }
 
-  <section>
-    <h2>📦 Download</h2>
-    <a href="https://github.com/ckonteos80/DadaPoemPump_Android/releases/download/v0.1-beta/DadaPoemPump.apk" target="_blank" class="button download">⬇️ Download APK v1.0</a>
-    <a href="https://github.com/ckonteos80/DadaPoemPump_Android" target="_blank" class="button github">💻 View Source on GitHub</a>
-  </section>
+  /* Buttons */
+  a.button{display:inline-block; margin:.5rem .5rem 0; padding:.85rem 1.4rem; border-radius:10px; font-weight:700; text-decoration:none; color:white; transition:filter .2s}
+  a.download{background:#238636} a.download:hover{filter:brightness(1.1)}
+  a.github{background:#58a6ff}  a.github:hover{filter:brightness(1.1)}
 
-  <section>
-    <h2>🧩 Built With</h2>
-    <ul>
-      <li>Unity 2023 LTS</li>
-      <li>C# / UnityEngine.XR (OpenXR)</li>
-      <li>News API Integration (REST)</li>
-      <li>Android Build Pipeline</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>Created by <strong>ckonteos80</strong> — Inspired by Tristan Tzara’s Dada Manifesto and the poetics of chance.<br>© 2025</p>
-  </footer>
-</body>
-</html>
+  footer{margin-top:3rem; text-align:center; font-size:.95rem; color:var(--muted); padding:2rem 0}
+  @media (max-width:520px){
+    h1{font-size:2.1rem}
+    h2{font-size:1.35rem}
+    :root{--base:17px}
+  }
+</style>
