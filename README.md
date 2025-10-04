@@ -27,4 +27,10 @@ Tristan Tzara
 <img width="270" height="596" alt="App5" src="https://github.com/user-attachments/assets/bd53468a-c68d-4e9b-8311-ab45232b6067" />
 <img width="270" height="596" alt="App6" src="https://github.com/user-attachments/assets/a24d1e8e-2989-4d5d-a8bd-5329334c25e2" />
 
+Features:
+- Real-time News API integration (fetching headlines, categories, full content)
+- Location & motion-based input control (GPS + device motion / accelerometer / gyroscope)
+- XR Camera using Unity’s XR Rig / OpenXR system
+
+
 https://github.com/user-attachments/assets/43c836f9-2920-4d65-b157-54538f6b0aee
