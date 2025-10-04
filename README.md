@@ -17,7 +17,8 @@ To make a Dadaist poem:
 
 The poem will be like you.
 And here are you a writer, infinitely original and endowed with a sensibility that is charming though beyond the understanding of the vulgar.
---Tristan Tzara
+
+Tristan Tzara
 
 
 
