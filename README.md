@@ -1,21 +1,8 @@
 # 🌀 DadaAndroid  
 Create Dadaist poems with the Tristan Tzara method  
 
-A poetic mobile experiment built in **Unity** — blending **chance, motion, and language** to generate original Dadaist poems inspired by Tristan Tzara’s 1920 manifesto.  
+## ✂️ To make a Dadaist poem:
 
----
-
-## 🎭 Concept
-The app re-imagines the *“How to Make a Dadaist Poem”* method for the digital age.  
-Using motion input and live news data, each poem emerges spontaneously — no two results are ever the same.  
-
-> *“The poem will be like you.  
-> And here are you a writer, infinitely original and endowed with a sensibility that is charming though beyond the understanding of the vulgar.”*  
-> — Tristan Tzara  
-
----
-
-## ✂️ How to Make a Dadaist Poem (in Tzara’s words)
 1. Take a newspaper.  
 2. Take a pair of scissors.  
 3. Choose an article as long as you are planning to make your poem.  
@@ -23,7 +10,13 @@ Using motion input and live news data, each poem emerges spontaneously — no tw
 5. Then cut out each of the words that make up this article and put them in a bag.  
 6. Shake it gently.  
 7. Take out the scraps one after the other in the order in which they left the bag.  
-8. Copy conscientiously.  
+8. Copy conscientiously.
+   
+-Tristan Tzara
+
+## 🎭 Concept
+The app re-imagines the *“How to Make a Dadaist Poem”* method for the digital age.  
+Using motion input and live news data, each poem emerges spontaneously — no two results are ever the same.  
 
 ---
 
@@ -66,8 +59,3 @@ Using motion input and live news data, each poem emerges spontaneously — no tw
 
 ---
 
-## 🏷️ Credits
-Concept & Development by **ckonteos80**  
-Inspired by Tristan Tzara’s Dada Manifesto and the poetics of chance.  
-
----
