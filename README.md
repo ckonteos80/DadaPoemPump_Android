@@ -32,5 +32,7 @@ Features:
 - Location & motion-based input control (GPS + device motion / accelerometer / gyroscope)
 - XR Camera using Unity’s XR Rig / OpenXR system
 
+[Download APK (v1.0)](https://github.com/ckontoes80/DadaPoemPump_Android/releases/download/v1.0/DadaPoemPump.apk)
 
 https://github.com/user-attachments/assets/43c836f9-2920-4d65-b157-54538f6b0aee
+
