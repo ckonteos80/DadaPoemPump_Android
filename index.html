@@ -11,10 +11,12 @@
       --muted: #8b949e;
       --accent: #58a6ff;
       --line: #222;
-      --maxw: 1100px;
-      --base: 18px;
+      --maxw: 1150px;
+      --base: 20px;
     }
+
     * { box-sizing: border-box; }
+
     html, body {
       margin: 0;
       padding: 0;
@@ -22,34 +24,54 @@
       color: var(--fg);
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
     }
+
     body {
       font-size: var(--base);
-      line-height: 1.8;
+      line-height: 1.9;
     }
+
     header {
       text-align: center;
       padding: 3rem 1rem 2rem;
       background: linear-gradient(180deg, #141a22, var(--bg));
       border-bottom: 1px solid var(--line);
     }
+
     h1 {
-      font-size: 2.8rem;
+      font-size: 3rem;
       margin: .25rem 0 .75rem;
     }
+
     h2 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       color: var(--accent);
       margin: 2.25rem 0 1rem;
     }
+
     .container {
       max-width: var(--maxw);
       margin: 0 auto;
-      padding: 0 24px;
+      padding: 0 28px;
     }
-    p, li { color: var(--fg); opacity: .92; }
-    ol { padding-left: 1.25rem; }
-    section { padding: 1rem 0; }
-    .lead { font-size: 1.1rem; color: var(--muted); }
+
+    p, li {
+      color: var(--fg);
+      opacity: .92;
+    }
+
+    ol {
+      padding-left: 1.25rem;
+    }
+
+    section {
+      padding: 1.5rem 0;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      color: var(--muted);
+    }
+
     iframe {
       display: block;
       margin: 1.5rem auto;
@@ -60,50 +82,58 @@
       height: 54vw;
       max-height: 540px;
     }
+
     img.screenshot {
       width: 100%;
       height: auto;
       border-radius: 12px;
       box-shadow: 0 0 14px rgba(0,0,0,.5);
     }
+
     .shots {
       display: grid;
-      gap: 18px;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 22px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       align-items: start;
     }
+
     a.button {
       display: inline-block;
-      margin: .5rem .5rem 0;
-      padding: .85rem 1.4rem;
+      margin: .8rem .5rem 0;
+      padding: 1rem 1.6rem;
       border-radius: 10px;
       font-weight: 700;
       text-decoration: none;
       color: white;
       transition: filter .2s;
+      font-size: 1rem;
     }
+
     a.download { background: #238636; }
     a.download:hover { filter: brightness(1.1); }
+
     a.github { background: #58a6ff; }
     a.github:hover { filter: brightness(1.1); }
+
     footer {
       margin-top: 3rem;
       text-align: center;
-      font-size: .95rem;
+      font-size: 1rem;
       color: var(--muted);
       padding: 2rem 0;
     }
+
     @media (max-width: 520px) {
-      h1 { font-size: 2.1rem; }
-      h2 { font-size: 1.35rem; }
-      :root { --base: 17px; }
+      h1 { font-size: 2.3rem; }
+      h2 { font-size: 1.5rem; }
+      :root { --base: 18px; }
     }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>🌀 DadaAndroid</h1>
+    <h1>Dada Poem Pump</h1>
     <p class="lead">Create Dadaist poems with the Tristan Tzara method</p>
   </header>
 
@@ -174,12 +204,15 @@
       <h2>🧩 Built With</h2>
       <ul>
         <li>Unity 2023 LTS</li>
+        <li>C# / UnityEngine.XR (OpenXR)</li>
+        <li>News API Integration (REST)</li>
+        <li>Android Build Pipeline</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>Created by <strong>ckonteos80</strong> — Inspired by Tristan Tzara’s Dada Manifesto and the poetics of chance.<br>© 2025</p>
+    <p>Created by <strong>Christos Konteos</strong></p>
   </footer>
 </body>
 </html>
