@@ -1,5 +1,6 @@
 # DadaAndroid
 # Create Dadaist poems with the Trista Tzara method
+https://github.com/user-attachments/assets/43c836f9-2920-4d65-b157-54538f6b0aee
 
 How to Make a Dadaist Poem
 (method of Tristan Tzara)
@@ -18,7 +19,7 @@ The poem will be like you.
 And here are you a writer, infinitely original and endowed with a sensibility that is charming though beyond the understanding of the vulgar.
 --Tristan Tzara
 
-https://github.com/user-attachments/assets/43c836f9-2920-4d65-b157-54538f6b0aee
+
 
 
 
