@@ -23,11 +23,14 @@ Tristan Tzara
 
 
 
+<img width="1080" height="2386" alt="App6" src="https://github.com/user-attachments/assets/a24d1e8e-2989-4d5d-a8bd-5329334c25e2" />
+<img width="1080" height="2386" alt="App5" src="https://github.com/user-attachments/assets/bd53468a-c68d-4e9b-8311-ab45232b6067" />
+<img width="1080" height="2386" alt="App4" src="https://github.com/user-attachments/assets/2a485725-6628-40b5-8244-b068f08aae08" />
+<img width="1080" height="2386" alt="App3" src="https://github.com/user-attachments/assets/e9fadd73-eb75-4125-a6b6-4664dff544dc" />
+<img width="1080" height="2386" alt="App2" src="https://github.com/user-attachments/assets/a6f69bae-0127-4db4-bddf-b156b629d115" />
+<img width="1080" height="2386" alt="App1" src="https://github.com/user-attachments/assets/cc08e637-f8e1-4a30-817d-6d6c1083cdf0" />
 
-![Demo1 thumbails 00_04_39_06 Still007](https://github.com/user-attachments/assets/30b4717c-4062-4d70-8230-015ab44c8923)
-![2](https://github.com/user-attachments/assets/0f531477-395e-446b-a92f-2090e67bae23)
-![3](https://github.com/user-attachments/assets/9152c5f7-7064-4ac8-9eb4-086c6388dff0)
-<img width="540" height="1193" alt="4" src="https://github.com/user-attachments/assets/77c90ef0-47ab-44e0-89a3-e4d7af010e88" />
+
 
 
 https://github.com/user-attachments/assets/43c836f9-2920-4d65-b157-54538f6b0aee
